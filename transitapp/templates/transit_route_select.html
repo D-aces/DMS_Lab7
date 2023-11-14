@@ -1,0 +1,29 @@
+{% extends "_base.html" %} {% block title %} Transit Route Select {% endblock %}
+{% block content %}
+
+<body>
+    <div class="mt-4 container-fluid" style="min-width: fit-content;">
+        <h1>Routes for <span class="text-danger">{{starting_point}} </span> to <span
+                class="text-danger">{{destination}}</span> </h1>
+        <div class="mt-4 container d-flex flex-column">
+            <form method="POST" action="/bus_route_detail/">
+                {% csrf_token %}
+                <input type="hidden" name="starting_point" value="{{ starting_point }}">
+                <input type="hidden" name="destination" value="{{ destination }}">
+                <input type="hidden" name="route_details" value="{{ route_details }}">
+                {% for route_detail in unique_route_details %}
+                <div class="class=p-2 mx-3 mt-5 text-center border-top border-black">
+                    <input type="submit" class="btn btn-link text-dark" name="route_name_num"
+                        value="{{route_detail.destination__destination_name}} : {{route_detail.Route__route_number}}"></input>
+                </div>
+                {% endfor %}
+                {% if not unique_route_details %}
+                <div class="mt-4 container d-flex flex-column">
+                    <h2 class="p-3 text-light bg-dark"> Sorry, No routes available...</h2>
+                </div>
+                {% endif %}
+            </form>
+        </div>
+    </div>
+</body>
+{% endblock %}

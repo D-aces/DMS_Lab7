@@ -1,0 +1,816 @@
+{
+    "route": {
+        "number": "1",
+        "stops": [
+            {
+                "number": 1000,
+                "name": "Transit Terminal",
+                "latitude": "46.49257002398376",
+                "longitude": "-80.991619974374842",
+                "links": {
+                    "self": "/api/v2/stops/1000"
+                }
+            },
+            {
+                "number": 1045,
+                "name": "Rainbow Centre",
+                "latitude": "46.494159987196369",
+                "longitude": "-80.991210015490722",
+                "links": {
+                    "self": "/api/v2/stops/1045"
+                }
+            },
+            {
+                "number": 1050,
+                "name": "Louis",
+                "latitude": "46.494529964402361",
+                "longitude": "-80.99079997278757",
+                "links": {
+                    "self": "/api/v2/stops/1050"
+                }
+            },
+            {
+                "number": 1051,
+                "name": "Ste Anne",
+                "latitude": "46.496350010857029",
+                "longitude": "-80.990039985627007",
+                "links": {
+                    "self": "/api/v2/stops/1051"
+                }
+            },
+            {
+                "number": 1125,
+                "name": "Tom Davies Square",
+                "latitude": "46.490200040862007",
+                "longitude": "-80.989310005679798",
+                "links": {
+                    "self": "/api/v2/stops/1125"
+                }
+            },
+            {
+                "number": 1130,
+                "name": "Brady",
+                "latitude": "46.489230003207965",
+                "longitude": "-80.98892997019",
+                "links": {
+                    "self": "/api/v2/stops/1130"
+                }
+            },
+            {
+                "number": 1655,
+                "name": "Leslie",
+                "latitude": "46.49835001677279",
+                "longitude": "-80.987690035253834",
+                "links": {
+                    "self": "/api/v2/stops/1655"
+                }
+            },
+            {
+                "number": 1660,
+                "name": "Leslie",
+                "latitude": "46.49891001172368",
+                "longitude": "-80.986989978700947",
+                "links": {
+                    "self": "/api/v2/stops/1660"
+                }
+            },
+            {
+                "number": 1665,
+                "name": "Kathleen",
+                "latitude": "46.501470012590332",
+                "longitude": "-80.986850000917983",
+                "links": {
+                    "self": "/api/v2/stops/1665"
+                }
+            },
+            {
+                "number": 1670,
+                "name": "Kathleen",
+                "latitude": "46.502000000327868",
+                "longitude": "-80.98718997091062",
+                "links": {
+                    "self": "/api/v2/stops/1670"
+                }
+            },
+            {
+                "number": 1675,
+                "name": "King",
+                "latitude": "46.503969999030275",
+                "longitude": "-80.98708000034101",
+                "links": {
+                    "self": "/api/v2/stops/1675"
+                }
+            },
+            {
+                "number": 1730,
+                "name": "Notre Dame \u0026 King",
+                "latitude": "46.504659997299356",
+                "longitude": "-80.98667004145689",
+                "links": {
+                    "self": "/api/v2/stops/1730"
+                }
+            },
+            {
+                "number": 1735,
+                "name": "Dell",
+                "latitude": "46.505633974447889",
+                "longitude": "-80.986923007294607",
+                "links": {
+                    "self": "/api/v2/stops/1735"
+                }
+            },
+            {
+                "number": 1740,
+                "name": "Dell",
+                "latitude": "46.50589398108427",
+                "longitude": "-80.98656501621015",
+                "links": {
+                    "self": "/api/v2/stops/1740"
+                }
+            },
+            {
+                "number": 1745,
+                "name": "Wilma",
+                "latitude": "46.507810000330252",
+                "longitude": "-80.986799960956048",
+                "links": {
+                    "self": "/api/v2/stops/1745"
+                }
+            },
+            {
+                "number": 1750,
+                "name": "Wilma",
+                "latitude": "46.507459972053809",
+                "longitude": "-80.986550012603473",
+                "links": {
+                    "self": "/api/v2/stops/1750"
+                }
+            },
+            {
+                "number": 1755,
+                "name": "Notre Dame Square",
+                "latitude": "46.510739978402896",
+                "longitude": "-80.986620001494956",
+                "links": {
+                    "self": "/api/v2/stops/1755"
+                }
+            },
+            {
+                "number": 1760,
+                "name": "Notre Dame Square",
+                "latitude": "46.509529966861052",
+                "longitude": "-80.986510030925345",
+                "links": {
+                    "self": "/api/v2/stops/1760"
+                }
+            },
+            {
+                "number": 1765,
+                "name": "764 Notre Dame",
+                "latitude": "46.512160040438218",
+                "longitude": "-80.98579002544291",
+                "links": {
+                    "self": "/api/v2/stops/1765"
+                }
+            },
+            {
+                "number": 1770,
+                "name": "875 Notre Dame",
+                "latitude": "46.51207999326293",
+                "longitude": "-80.98622001707561",
+                "links": {
+                    "self": "/api/v2/stops/1770"
+                }
+            },
+            {
+                "number": 1780,
+                "name": "Cambrian Heights",
+                "latitude": "46.514449976384682",
+                "longitude": "-80.985379982739758",
+                "links": {
+                    "self": "/api/v2/stops/1780"
+                }
+            },
+            {
+                "number": 1785,
+                "name": "Newgate",
+                "latitude": "46.515659987926526",
+                "longitude": "-80.984540032222938",
+                "links": {
+                    "self": "/api/v2/stops/1785"
+                }
+            },
+            {
+                "number": 1790,
+                "name": "Pioneer Manor",
+                "latitude": "46.518270028755111",
+                "longitude": "-80.983969978988242",
+                "links": {
+                    "self": "/api/v2/stops/1790"
+                }
+            },
+            {
+                "number": 1795,
+                "name": "Pioneer Manor",
+                "latitude": "46.519090030342383",
+                "longitude": "-80.984150022268366",
+                "links": {
+                    "self": "/api/v2/stops/1795"
+                }
+            },
+            {
+                "number": 1815,
+                "name": "1050 Notre Dame",
+                "latitude": "46.520749982446475",
+                "longitude": "-80.983400009572577",
+                "links": {
+                    "self": "/api/v2/stops/1815"
+                }
+            },
+            {
+                "number": 1820,
+                "name": "1111 Notre Dame",
+                "latitude": "46.520849978551311",
+                "longitude": "-80.98405002616353",
+                "links": {
+                    "self": "/api/v2/stops/1820"
+                }
+            },
+            {
+                "number": 5020,
+                "name": "John",
+                "latitude": "46.483570039272351",
+                "longitude": "-80.989200035110187",
+                "links": {
+                    "self": "/api/v2/stops/5020"
+                }
+            },
+            {
+                "number": 5025,
+                "name": "John",
+                "latitude": "46.482929997146172",
+                "longitude": "-80.989589961245727",
+                "links": {
+                    "self": "/api/v2/stops/5025"
+                }
+            },
+            {
+                "number": 5030,
+                "name": "McNaughton",
+                "latitude": "46.481329975649757",
+                "longitude": "-80.989609993994307",
+                "links": {
+                    "self": "/api/v2/stops/5030"
+                }
+            },
+            {
+                "number": 5035,
+                "name": "Boland",
+                "latitude": "46.479500038549347",
+                "longitude": "-80.990810031071376",
+                "links": {
+                    "self": "/api/v2/stops/5035"
+                }
+            },
+            {
+                "number": 5040,
+                "name": "Boland",
+                "latitude": "46.479110028594775",
+                "longitude": "-80.991670014336776",
+                "links": {
+                    "self": "/api/v2/stops/5040"
+                }
+            },
+            {
+                "number": 5475,
+                "name": "York",
+                "latitude": "46.476160017773552",
+                "longitude": "-80.993800023570728",
+                "links": {
+                    "self": "/api/v2/stops/5475"
+                }
+            },
+            {
+                "number": 5480,
+                "name": "York",
+                "latitude": "46.476049963384909",
+                "longitude": "-80.994179975241494",
+                "links": {
+                    "self": "/api/v2/stops/5480"
+                }
+            },
+            {
+                "number": 5485,
+                "name": "Science North",
+                "latitude": "46.470640031620903",
+                "longitude": "-80.99745998159058",
+                "links": {
+                    "self": "/api/v2/stops/5485"
+                }
+            },
+            {
+                "number": 5490,
+                "name": "Science North",
+                "latitude": "46.470780009403867",
+                "longitude": "-80.997879998758506",
+                "links": {
+                    "self": "/api/v2/stops/5490"
+                }
+            },
+            {
+                "number": 5495,
+                "name": "Centennial \u0026 Paris",
+                "latitude": "46.467539984732909",
+                "longitude": "-80.998600004240942",
+                "links": {
+                    "self": "/api/v2/stops/5495"
+                }
+            },
+            {
+                "number": 5500,
+                "name": "Hearing Society",
+                "latitude": "46.466740015894217",
+                "longitude": "-80.999259995296669",
+                "links": {
+                    "self": "/api/v2/stops/5500"
+                }
+            },
+            {
+                "number": 5505,
+                "name": "Sudbury and District Health Unit",
+                "latitude": "46.467009996995372",
+                "longitude": "-80.99820999428637",
+                "links": {
+                    "self": "/api/v2/stops/5505"
+                }
+            },
+            {
+                "number": 5510,
+                "name": "Sudbury and District Health Unit",
+                "latitude": "46.466779997572345",
+                "longitude": "-80.997629966586899",
+                "links": {
+                    "self": "/api/v2/stops/5510"
+                }
+            },
+            {
+                "number": 5515,
+                "name": "Hospital South",
+                "latitude": "46.466259984299583",
+                "longitude": "-80.996799990534853",
+                "links": {
+                    "self": "/api/v2/stops/5515"
+                }
+            },
+            {
+                "number": 5517,
+                "name": "Hospital Main",
+                "latitude": "46.467190040275497",
+                "longitude": "-80.995889967307519",
+                "links": {
+                    "self": "/api/v2/stops/5517"
+                }
+            },
+            {
+                "number": 5520,
+                "name": "Hospital South",
+                "latitude": "46.466459976509256",
+                "longitude": "-80.997029989957881",
+                "links": {
+                    "self": "/api/v2/stops/5520"
+                }
+            },
+            {
+                "number": 5660,
+                "name": "Paris \u0026 Walford",
+                "latitude": "46.464710002765102",
+                "longitude": "-80.999469961971116",
+                "links": {
+                    "self": "/api/v2/stops/5660"
+                }
+            },
+            {
+                "number": 5725,
+                "name": "Paris \u0026 Walford",
+                "latitude": "46.463639969006223",
+                "longitude": "-80.999959968030524",
+                "links": {
+                    "self": "/api/v2/stops/5725"
+                }
+            },
+            {
+                "number": 5730,
+                "name": "1492 Paris",
+                "latitude": "46.462310012429995",
+                "longitude": "-81.000210000202131",
+                "links": {
+                    "self": "/api/v2/stops/5730"
+                }
+            },
+            {
+                "number": 5735,
+                "name": "1535 Paris",
+                "latitude": "46.461620014160914",
+                "longitude": "-81.000749962404441",
+                "links": {
+                    "self": "/api/v2/stops/5735"
+                }
+            },
+            {
+                "number": 5740,
+                "name": "Bel Lago",
+                "latitude": "46.4593999832869",
+                "longitude": "-81.001299982890558",
+                "links": {
+                    "self": "/api/v2/stops/5740"
+                }
+            },
+            {
+                "number": 5745,
+                "name": "Bel Lago",
+                "latitude": "46.459250031039161",
+                "longitude": "-81.001069983467531",
+                "links": {
+                    "self": "/api/v2/stops/5745"
+                }
+            },
+            {
+                "number": 5750,
+                "name": "Parkview",
+                "latitude": "46.456720037385864",
+                "longitude": "-81.001320015639138",
+                "links": {
+                    "self": "/api/v2/stops/5750"
+                }
+            },
+            {
+                "number": 5755,
+                "name": "Parkview",
+                "latitude": "46.456930004060311",
+                "longitude": "-81.001039976254177",
+                "links": {
+                    "self": "/api/v2/stops/5755"
+                }
+            },
+            {
+                "number": 5760,
+                "name": "Maki",
+                "latitude": "46.455389996990604",
+                "longitude": "-81.001529982313585",
+                "links": {
+                    "self": "/api/v2/stops/5760"
+                }
+            },
+            {
+                "number": 5765,
+                "name": "Maki",
+                "latitude": "46.455540033057375",
+                "longitude": "-81.001139972359013",
+                "links": {
+                    "self": "/api/v2/stops/5765"
+                }
+            },
+            {
+                "number": 5770,
+                "name": "Plaza 69",
+                "latitude": "46.453329976648135",
+                "longitude": "-81.002440005540919",
+                "links": {
+                    "self": "/api/v2/stops/5770"
+                }
+            },
+            {
+                "number": 5775,
+                "name": "Plaza 69",
+                "latitude": "46.452880036085887",
+                "longitude": "-81.002289969474148",
+                "links": {
+                    "self": "/api/v2/stops/5775"
+                }
+            },
+            {
+                "number": 5800,
+                "name": "Shoppers Drug Mart",
+                "latitude": "46.450430005788846",
+                "longitude": "-81.003820002079081",
+                "links": {
+                    "self": "/api/v2/stops/5800"
+                }
+            },
+            {
+                "number": 5805,
+                "name": "Shoppers Drug Mart",
+                "latitude": "46.449870010837955",
+                "longitude": "-81.003759987652373",
+                "links": {
+                    "self": "/api/v2/stops/5805"
+                }
+            },
+            {
+                "number": 5810,
+                "name": "St. Charles Lake",
+                "latitude": "46.44770999439065",
+                "longitude": "-81.005100002512407",
+                "links": {
+                    "self": "/api/v2/stops/5810"
+                }
+            },
+            {
+                "number": 5812,
+                "name": "Long Lake",
+                "latitude": "46.44781996496026",
+                "longitude": "-81.004689959809255",
+                "links": {
+                    "self": "/api/v2/stops/5812"
+                }
+            },
+            {
+                "number": 5820,
+                "name": "Long Lake \u0026 Alice",
+                "latitude": "46.445930013433141",
+                "longitude": "-81.005469979718399",
+                "links": {
+                    "self": "/api/v2/stops/5820"
+                }
+            },
+            {
+                "number": 5822,
+                "name": "Long Lake \u0026 Alice",
+                "latitude": "46.446160012856168",
+                "longitude": "-81.005560001358461",
+                "links": {
+                    "self": "/api/v2/stops/5822"
+                }
+            },
+            {
+                "number": 5825,
+                "name": "Ester",
+                "latitude": "46.443340005353136",
+                "longitude": "-81.005569975823235",
+                "links": {
+                    "self": "/api/v2/stops/5825"
+                }
+            },
+            {
+                "number": 5826,
+                "name": "Long Lake \u0026 Ester",
+                "latitude": "46.443999996408863",
+                "longitude": "-81.006099963560771",
+                "links": {
+                    "self": "/api/v2/stops/5826"
+                }
+            },
+            {
+                "number": 5830,
+                "name": "South End Transit Hub",
+                "latitude": "46.440280023962302",
+                "longitude": "-81.004189979285073",
+                "links": {
+                    "self": "/api/v2/stops/5830"
+                }
+            },
+            {
+                "number": 6205,
+                "name": "Lasalle",
+                "latitude": "46.522089997306509",
+                "longitude": "-80.982150016352605",
+                "links": {
+                    "self": "/api/v2/stops/6205"
+                }
+            },
+            {
+                "number": 6210,
+                "name": "Child \u0026 Family Centre",
+                "latitude": "46.522359978407664",
+                "longitude": "-80.980670023709607",
+                "links": {
+                    "self": "/api/v2/stops/6210"
+                }
+            },
+            {
+                "number": 6215,
+                "name": "Child \u0026 Family Centre",
+                "latitude": "46.522140037268443",
+                "longitude": "-80.979019962251257",
+                "links": {
+                    "self": "/api/v2/stops/6215"
+                }
+            },
+            {
+                "number": 6280,
+                "name": "Somers",
+                "latitude": "46.522310022264762",
+                "longitude": "-80.976099958643388",
+                "links": {
+                    "self": "/api/v2/stops/6280"
+                }
+            },
+            {
+                "number": 6285,
+                "name": "Somers",
+                "latitude": "46.522089997306509",
+                "longitude": "-80.975659992545914",
+                "links": {
+                    "self": "/api/v2/stops/6285"
+                }
+            },
+            {
+                "number": 6290,
+                "name": "Drummond",
+                "latitude": "46.522299963980956",
+                "longitude": "-80.97423003986485",
+                "links": {
+                    "self": "/api/v2/stops/6290"
+                }
+            },
+            {
+                "number": 6295,
+                "name": "Sunnybrae",
+                "latitude": "46.522110030055089",
+                "longitude": "-80.973239969462227",
+                "links": {
+                    "self": "/api/v2/stops/6295"
+                }
+            },
+            {
+                "number": 6300,
+                "name": "Rideau",
+                "latitude": "46.522270040586633",
+                "longitude": "-80.969190001487803",
+                "links": {
+                    "self": "/api/v2/stops/6300"
+                }
+            },
+            {
+                "number": 6305,
+                "name": "Rideau",
+                "latitude": "46.52205001562838",
+                "longitude": "-80.968569992110204",
+                "links": {
+                    "self": "/api/v2/stops/6305"
+                }
+            },
+            {
+                "number": 6310,
+                "name": "Montrose",
+                "latitude": "46.522220000624699",
+                "longitude": "-80.963649982586574",
+                "links": {
+                    "self": "/api/v2/stops/6310"
+                }
+            },
+            {
+                "number": 6315,
+                "name": "Montrose",
+                "latitude": "46.522080022841735",
+                "longitude": "-80.964639969170165",
+                "links": {
+                    "self": "/api/v2/stops/6315"
+                }
+            },
+            {
+                "number": 6320,
+                "name": "Villa Cellino",
+                "latitude": "46.522220000624699",
+                "longitude": "-80.962069993838739",
+                "links": {
+                    "self": "/api/v2/stops/6320"
+                }
+            },
+            {
+                "number": 6325,
+                "name": "Villa Cellino",
+                "latitude": "46.521980026736898",
+                "longitude": "-80.961689958348941",
+                "links": {
+                    "self": "/api/v2/stops/6325"
+                }
+            },
+            {
+                "number": 6330,
+                "name": "Arthur",
+                "latitude": "46.522189993411345",
+                "longitude": "-80.958469966426563",
+                "links": {
+                    "self": "/api/v2/stops/6330"
+                }
+            },
+            {
+                "number": 6335,
+                "name": "Arthur",
+                "latitude": "46.521969968453092",
+                "longitude": "-80.958529980853271",
+                "links": {
+                    "self": "/api/v2/stops/6335"
+                }
+            },
+            {
+                "number": 6340,
+                "name": "Carmen",
+                "latitude": "46.522159986197991",
+                "longitude": "-80.955189960077476",
+                "links": {
+                    "self": "/api/v2/stops/6340"
+                }
+            },
+            {
+                "number": 6345,
+                "name": "Carmen",
+                "latitude": "46.521950019523544",
+                "longitude": "-80.954959960654449",
+                "links": {
+                    "self": "/api/v2/stops/6345"
+                }
+            },
+            {
+                "number": 6350,
+                "name": "Attlee",
+                "latitude": "46.522180018946571",
+                "longitude": "-80.95264001749463",
+                "links": {
+                    "self": "/api/v2/stops/6350"
+                }
+            },
+            {
+                "number": 6355,
+                "name": "Attlee",
+                "latitude": "46.521950019523544",
+                "longitude": "-80.952319996431541",
+                "links": {
+                    "self": "/api/v2/stops/6355"
+                }
+            },
+            {
+                "number": 6575,
+                "name": "Wal Mart",
+                "latitude": "46.522169960662765",
+                "longitude": "-80.949269989505481",
+                "links": {
+                    "self": "/api/v2/stops/6575"
+                }
+            },
+            {
+                "number": 6580,
+                "name": "Wal Mart",
+                "latitude": "46.521939961239738",
+                "longitude": "-80.949090030044388",
+                "links": {
+                    "self": "/api/v2/stops/6580"
+                }
+            },
+            {
+                "number": 6585,
+                "name": "New Sudbury Public Library",
+                "latitude": "46.522199967876119",
+                "longitude": "-80.946909980848503",
+                "links": {
+                    "self": "/api/v2/stops/6585"
+                }
+            },
+            {
+                "number": 6590,
+                "name": "New Sudbury Centre",
+                "latitude": "46.521969968453092",
+                "longitude": "-80.946660032495927",
+                "links": {
+                    "self": "/api/v2/stops/6590"
+                }
+            },
+            {
+                "number": 6935,
+                "name": "New Sudbury Transit Hub",
+                "latitude": "46.520710000768347",
+                "longitude": "-80.946589959785413",
+                "links": {
+                    "self": "/api/v2/stops/6935"
+                }
+            },
+            {
+                "number": 6940,
+                "name": "New Sudbury Transit Hub",
+                "latitude": "46.520710000768347",
+                "longitude": "-80.946359960362386",
+                "links": {
+                    "self": "/api/v2/stops/6940"
+                }
+            },
+            {
+                "number": 101242,
+                "name": "Patie",
+                "latitude": "46.516839992255015",
+                "longitude": "-80.984570039436292",
+                "links": {
+                    "self": "/api/v2/stops/101242"
+                }
+            }
+        ],
+        "links": [
+            {
+                "self": "/api/v2/routes/1"
+            },
+            {
+                "index": "/api/v2/routes"
+            }
+        ]
+    }
+}

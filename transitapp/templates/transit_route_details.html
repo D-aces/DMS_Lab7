@@ -1,0 +1,19 @@
+{% extends "_base.html" %} {% block title %} Transit Route Select {% endblock %}
+{% block content %}
+<body>
+    <div class="mt-4 ml-2 container-fluid" style="min-width: fit-content;">
+    <h2 class="text-secondary text-decoration-underline text-center">{{route_name_num}} </h2>
+    <ol class="m-4 list-group list-group-numbered d-flex flex-wrap">
+        {% for detail in route_progress %}
+            <li class="list-group-item d-flex justify-content-between align-items-start flex-wrap">
+                <div class="ms-2 me-auto">
+                    <div class="fw-bold">{{ detail.stops.name }}</div>
+                    Stop Number: {{ detail.stops.stop_number }}
+                </div>
+                <span class="badge bg-primary rounded-pill">{{ detail.passing_time }}</span>
+            </li>
+        {% endfor %}
+    </ol>
+    </div>
+</body>
+{% endblock %}
